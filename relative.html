@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            #one {
+                background-color: bisque;
+                width: 500px;
+                height: 100px;
+            }
+            #two {
+                position: relative;   /*기준점 : static 위치*/
+                left: 100px;
+                top: 200px;
+                background-color: royalblue;
+                width: 500px;
+                height: 100px;
+            }
+            #three {
+                position: relative;
+                left: 50px;
+                top: 100px;
+                background-color: rosybrown;
+                width: 500px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--대표적인 블럭요소(한 줄 다 차지)-->
+        <p id="one">block #1</p>
+        <div id="two">block #2</div>
+        <p id="three">block #3</p>
+    </body>
+</html>
