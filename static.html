@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            #one {
+                background-color: bisque;
+                width: 500px;
+                height: 100px;
+            }
+            #two {
+                position: static;   /*정상적인 흐름 => one 아래 => 쓰나마나 한 상태*/
+                background-color: royalblue;
+                width: 500px;
+                height: 100px;
+            }
+            #three {
+                background-color: rosybrown;
+                width: 500px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--대표적인 블럭요소(한 줄 다 차지)-->
+        <p id="one">block #1</p>
+        <div id="two">block #2</div>
+        <p id="three">block #3</p>
+    </body>
+</html>
